@@ -158,8 +158,8 @@ class KDate {
         return this.$date.getSeconds();
     }
 
-    milliseconds(){
-        return this.$date.getMilliseconds();
+    milliSeconds(){
+        return this.$date.getMilliSeconds();
     }
 
     timeStamp(long = false) {
