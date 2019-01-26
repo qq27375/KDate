@@ -3,7 +3,7 @@
 该类主要为解决javascript中Date对象中不符合日常习惯而创建。
 
 ## 安装和使用
-您可以直接下载代码，将src/kDate.js放到您的项目中，或者使用
+您可以直接下载代码，将dist/kDate.js放到您的项目中，或者使用
 `npm install kdate`
 
 ## 新建一个KDate对象
