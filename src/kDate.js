@@ -24,7 +24,7 @@ class KDate {
                 break;
             case 'Number':
                 if (para0 < 10000) {
-                    this.$date = new Date(para0, month - 1, day, hour, minute, second);
+                    this.$date = new Date(para0, month || 1 - 1, day || 1, hour || 0, minute || 0, second || 0);
                 } else if (para0 < 1000000000000) {
                     this.$date = new Date(para0 * 1000);
                 } else {
@@ -158,7 +158,7 @@ class KDate {
         return this.$date.getSeconds();
     }
 
-    milliSeconds(){
+    milliSeconds() {
         return this.$date.getMilliSeconds();
     }
 
